@@ -1,0 +1,194 @@
+.main_container{
+	height: 100vh;
+	background-color: #dadbd3;
+	display: grid;
+	place-items: center;
+}
+
+.main_body{
+	height: 90vh;
+	width: 90vw;
+	background-color: #ededed;
+	box-shadow: -1px 4px 20px -6px #000;
+	display: flex;
+}
+
+
+
+.message_container{
+	
+	width: 450px;
+	background-color: #fff;
+	border-right: 1px solid lightgray;
+	
+}
+
+.list_header{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #ededed;
+}
+
+.right_header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-width: 10vw;
+
+}
+
+.right_header svg {
+	font-size: 18px;
+}
+
+.contact_search{
+	display: flex;
+	align-items: center;
+	background-color: #f6f6f6;
+	height: 50px;
+	padding: 10px;
+}
+
+.search_container{
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	height: 35px;
+	width: 100%;
+	border-radius: 20px;
+}
+
+.search_container input{
+	border: 0;
+	margin-left: 10px;
+	border-radius: 20px;
+	outline: 0;
+	width: 100%;
+}
+
+.chats_container{
+	display: flex;
+	background-color: #fff;
+	flex-direction: column;
+	height: inherit;
+	position: relative;
+    overflow-y: auto;
+}
+
+.chats_container :hover{
+	background-color: #ebebeb;
+	cursor: pointer;
+}
+
+
+.chatBox_header{
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid lightgray;
+	padding: 18px;
+	
+	
+}
+
+.user_profile{
+	display: flex;
+	font-size: 20px;
+	font-family: cursive;
+	align-items: center;
+	
+	
+}
+
+.user_profile span{
+	font-size: 11px;
+	position: absolute;
+	top: 52px;
+	left: 67px;
+	
+}
+
+
+  .chatBoxTop{
+	height: 100%;
+	width: 100%;
+	/* background-color: lightgray; */
+	background-image: url(../../images/wpbackground.png);
+	overflow-y: auto;
+	padding-right: 10px;
+  }
+
+  .chatBoxBottom{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+  }
+
+.chatBoxWrapper{
+	height: 100%;
+	width: 100%;
+	display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.chatMessageInput {
+	border: 2px;
+	border-radius: 20px;
+	height: 40px;
+	outline: 0;
+	width: 100%;
+	margin-right: 5px;
+	margin-left: 16px;
+}
+
+.chatSubmitButton {
+	width: 70px;
+	height: 40px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: teal;
+	color: white;
+}
+
+.chatList_box{
+	overflow-y: auto;
+	height: 100%;
+}
+
+.emaptyimg{
+	width: 100%;
+	height: 100%;
+}
+
+
+/* Emoji */
+.emoji{
+	position: absolute !important;
+	background-color: aqua;
+	}
+	  
+
+/* file input */
+
+.round{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+	line-height: 33px;
+	overflow: hidden;
+	text-align: center;	
+}
+.round input[type='file']{
+	position: absolute;
+	transform: scale(2);
+	opacity: 0;
+	margin-left: 10px;	
+}

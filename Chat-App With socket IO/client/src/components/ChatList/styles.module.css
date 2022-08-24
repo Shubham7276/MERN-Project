@@ -1,0 +1,29 @@
+
+
+.chat_container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;	
+	border-bottom: 1px solid #eaeaea;
+	padding: 10px;
+	width: 100%;
+	
+}
+
+.chatInfo{
+	margin-left: 15px;
+	
+}
+
+.chatInfo h2{
+	font-size: 18px;
+	margin-top: 12px;
+}
+
+
+.setting {
+	width: 10%;
+	
+}
+
+
